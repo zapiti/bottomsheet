@@ -57,14 +57,6 @@ class MenuAdapterUi : AnkoComponent<MenuAdapter> {
                         topMargin = dip(5)
                     }
 
-                    skPlusLessButton(){
-                        id = View.generateViewId()
-                    }.lparams(){
-                        centerHorizontally()
-                        below(VALUE)
-                    }
-
-
 
                 }.lparams(matchParent) {
                     gravity = Gravity.CENTER

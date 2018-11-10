@@ -10,10 +10,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 
-/**
- * Created by quentin on 07/11/2017.
- */
-
 open class BottomSheetLayout : FrameLayout {
 
     private lateinit var valueAnimator: ValueAnimator

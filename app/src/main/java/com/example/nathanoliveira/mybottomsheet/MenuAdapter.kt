@@ -38,7 +38,7 @@ class MenuAdapter(val context: Context, var mDataSet: ArrayList<String>,val butt
 
         val card = mDataSet[position]
         if (card != null) {
-            holder.iconImageView.imageResource = R.drawable.produto
+            holder.iconImageView.imageResource = R.drawable.ic_launcher_background
 
             holder.nameTextView.text = "VEJA"
             holder.descLayout.text = "Produto de limpesa."
